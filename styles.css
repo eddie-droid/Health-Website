@@ -1,0 +1,383 @@
+body, header, nav, main, section, footer, h1, h3, ul, p{
+  margin:0;
+  padding:0;
+  border:0;
+}
+.mobile{
+  display: block;
+
+}
+
+/*Style rules to show mobile class and hide tab-desk class.*/
+.tab-desk, #nav-links{
+  display: none;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+.round{
+	border-radius: 15px;
+}
+hr{
+	color: #ff890a;
+	background-color: #ff890a;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+header h1{
+
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+	font-size: 2.5em;
+	padding-top: 15%;
+	color: #ff890a;
+}
+header a{
+	text-decoration: none;
+}
+
+header a h1{
+	color: #ff890a;
+	border-bottom: 3px solid #ff890a;
+	margin-left: 4%;
+	margin-right: 4%}
+
+
+header h3{
+
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+	font-size: 1em;
+	padding-bottom: 30px;
+	color:#ff890a;
+}
+#creator-image-desktop img{
+		display: block; 
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+		padding-top: 40px;
+}
+
+h4{
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+	font-style: bold;
+	font-size: 1.75em;
+	color: #454545;
+}
+
+nav{
+	background-color: #ff890a;
+}
+
+
+.mobile-nav a {
+    color: white;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 3%;
+    display: block;
+}
+#nav-links a:hover {
+background-color: orange;
+}
+
+#icon{
+	font-size: 1.5em;
+}
+ 
+.mobile-nav a.nav-icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: hsla(31, 100%, 52%, 0.85);
+    padding: 3%;
+}
+ 
+.nav-icon div { 
+    height: 60px;
+    width: 50px;
+    color: hsla(31, 100%, 52%, 0.85); 
+} 
+.desktop{
+	display: none;
+}
+
+
+figure{
+position: relative;
+max-width: 290px;
+margin: 2% auto;
+border: 8px solid #007dd6;
+}
+figure:hover{
+  transform: scale(1.2);
+
+}
+figcaption{
+position: absolute;
+bottom: 0;
+background: rgba(0, 125, 214, 0.7);
+color: #fff;
+width: 100%;
+padding: 5% 0;
+text-align: center;
+font-family: Verdana, Arial, sans-serif;
+font-size: 1.5em;
+font-weight: bold;
+}
+body p{
+	font-family: 'Comfortaa', cursive;
+	color: #454545;
+	font-size: 1em;
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-bottom: 60px;
+}
+
+#heart-image-mobile img{
+		display: block; 
+		margin-left: auto;
+		margin-right: auto;
+		width: 40%;
+		padding-top: 70px;
+		
+	}
+#heart-image-mobile p{
+	font-size: 1.2em;
+	margin-left: auto;
+		margin-right: auto;
+	width: 50%;
+}
+#mental-health h2, #physical-health h2{
+font-size: 2.3em;
+margin-left: 1%;
+text-align: center;
+padding-top: 20px;
+font-weight: bolder;
+}
+#mental-health h4, #physical-health h4{
+font-size: 1.5em;
+margin-left: 1%;
+color: black;
+font-weight: bold;
+text-align: left;
+color: white;
+}
+#mental-health h5, #physical-health h5{
+font-family: 'Comfortaa', cursive;
+font-size: 1em;
+margin-left: 1%;
+text-align: left;
+font-weight: bold;
+color: white;
+}
+
+section{
+	background-color: #146EB4;
+	border: 6px solid #FF9900;
+	border-radius: 20px;
+	margin: 4%;
+	padding: 2%;
+	
+}
+button{
+	padding: 5%;
+	background-color: #FF9900;
+	color:white;
+	margin-bottom: 20px;
+	font-family: 'Comfortaa', cursive;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+h2{
+	color: #454545;
+	font-style: bold;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+}
+#contact p{
+	padding: 1%;
+}
+#contact h2{
+	padding-top: 30px;
+}
+#contact-button a{
+	text-decoration: none;
+	color: hsla(31, 100%, 52%, 1);
+}
+.tel-link {
+    background-color: hsla(31, 100%, 52%, 1);
+        padding: 2%;
+        margin: 0 auto;
+        width: 80%;
+        text-align: center;
+        border-radius: 5px;
+} 
+.tel-link a {
+    color: #fff;
+        text-decoration: none;
+        font-size: 1.5em;
+        display: block;
+}
+ 
+#contact.email-link {
+    color: hsla(31, 100%, 52%, 1);
+    text-decoration: none;
+    font-weight: bold;
+}
+ 
+.map {
+    border: 5px solid hsla(31, 100%, 52%, 1);
+    width: 95%;
+   height: 400px;
+   margin-left: 1%;
+}
+footer{ 
+	background-color: hsla(31, 100%, 52%, 0.85);
+	text-align: center;
+	display: block;
+	color: white;
+}
+footer p:first-child {
+	padding-top: 20px;
+	padding-bottom: 0px;
+	
+}
+footer p:last-child{
+	padding-top: 0;
+	padding-bottom: 20px;
+}
+footer p{
+	color: white;
+}
+footer p a{
+	text-decoration: none;
+	color: white;
+}
+
+
+@media screen and (min-width: 760px),print {
+.tab-desk{
+  display: block;
+}
+..mobile-nav{
+  display: block;
+}
+.mobile{
+	display: none;
+
+}
+ .grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 0;
+    padding-top: 50px
+}
+.desktop{
+	display: block;
+}
+header h1{
+
+	padding-top: 1.5%;
+	
+} 
+header a h1{
+	color: #ff890a;
+	border-bottom: 3px solid #ff890a;
+	margin-left: 30%;
+	margin-right: 30%}
+header h3{
+
+	font-size: 1.3em;	
+}
+#nav-links{
+	display: block;
+	text-align: center;
+}
+
+.mobile-nav a {
+    color: white;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 1%;
+    display: inline-block;
+}
+#icon{
+	display: none;
+}
+
+#nav-links a:hover {
+background-color: orange;
+transform: scale(1.1);
+
+}
+
+#creator-image-desktop img{
+		display: block; 
+		margin-left: auto;
+		margin-right: auto;
+		width: 35%;
+		padding-top: 40px;
+
+		
+}
+#heart-image-desktop img{
+		display: block; 
+		margin-left: auto;
+		margin-right: auto;
+		width: 10%;
+		padding-top: 70px;
+		
+}
+#heart-image-mobile img{
+	display: none;
+}
+.map{
+	  width: 95%;
+   height: 700px;
+   margin-left: 2%;
+   margin-bottom: 2%
+}
+section{
+
+	width: 320px;
+   display: inline-block;
+   margin:2%;
+
+
+}
+#mental-health h2, #physical-health h2{
+font-size: 2.2em;
+margin-left: 1%;
+font-style: bold;
+text-align: center;
+padding-top: 20px;
+}
+#mental-health h4, #physical-health h4{
+font-size: 2em;
+margin-left: 1%;
+text-align: left;
+}
+#mental-health h5, #physical-health h5{
+font-family: 'Comfortaa', cursive;
+font-size: 1em;
+margin-left: 1%;
+text-align: left;
+}
+#mental-health, #physical-health{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+}
