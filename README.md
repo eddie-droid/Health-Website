@@ -1,3 +1,2 @@
-# Website
-CIS-151
-Final Website Project
+# CIS-151 - Final Website Project
+
